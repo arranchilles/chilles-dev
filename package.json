@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start --hostname 10.0.2.15 --port 3000",
     "lint": "next lint",
-    "build": "next build && next-on-pages"
+    "deploy": "next build && next-on-pages"
   },
   "dependencies": {
     "react": "^18",
