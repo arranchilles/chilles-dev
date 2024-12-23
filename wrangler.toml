@@ -1,0 +1,4 @@
+name = "chilles-dev"
+compatibility_date = "2024-02-23"
+main = ".next/pages/api/index.js"
+node_compat = true
